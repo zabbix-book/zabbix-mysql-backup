@@ -4,7 +4,7 @@
 #license: apache 2.0
 #from :https://github.com/zabbix-book/zabbix-mysql-backup
 #usage: chmod 700 ${PATH}/zabbix_mysqldump.sh
-#crontab: crontab -e (0 3 * * * ${PATH}/zabbix_mysqldump.sh)
+#crontab: 0 3 * * * ${PATH}/zabbix_mysqldump.sh mysqldump
 
 red='\e[0;31m' # 红色  
 RED='\e[1;31m' 
